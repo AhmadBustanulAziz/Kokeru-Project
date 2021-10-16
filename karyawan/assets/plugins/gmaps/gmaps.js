@@ -256,7 +256,7 @@ var GMaps = (function(global) {
       delete options[options_to_be_deleted[i]];
     }
 
-    if(options.disableDefaultUI != true) {
+    if(options.disableDefaultUI !== true) {
       map_base_options = extend_object(map_base_options, map_controls_options);
     }
 
@@ -1093,7 +1093,7 @@ GMaps.prototype.drawPolygon = function(options) {
     map: this.map
   }, options);
 
-  if (useGeoJSON == false) {
+  if (useGeoJSON === false) {
     options.paths = [options.paths.slice(0)];
   }
 
