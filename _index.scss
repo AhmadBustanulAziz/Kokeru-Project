@@ -1,0 +1,82 @@
+@font-face{
+    src: url("font/Product\ Sans\ Regular.ttf");
+    font-family: PS;
+}
+
+#Home{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+#home-heading{
+    align-content: center;
+}
+
+#home-Title{
+    color: #277592;
+    font-family: PS;
+}
+
+#home-rooms{
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.WT{
+    color: #277592;
+    font-family: PS;
+    margin-top: 1%;
+}
+
+#home-card{
+    border: 0;
+    background-color: transparent;
+    box-shadow: none;
+    #button{
+        background-color: #277592;
+        border-color: #277592;
+        border-radius: 10px;
+        color: white;
+        font-family: PS;
+    }
+    
+    #sudah{
+        margin-top: 10vh;
+        align-items: center;
+        text-align: center;
+        border-radius: 20pt;
+        background-color: #91F19E;
+        color: #277592;
+        border-color: #91F19E;
+    }
+
+    #belum{
+        margin-top: 10vh;
+        align-items: center;
+        text-align: center;
+        border-radius: 20pt;
+        background-color:#F37878;
+        color: white;
+        border-color: #F37878;
+    }
+}
+
+#home-footer{
+    margin-top: 19vh;
+    margin-bottom: 0;
+    padding: 3vh 0vh 3vh 0vh ;
+
+    text-align: center;
+    font-family: PS;
+    color: white;
+    background-color: #277592;
+    #homelogin{
+        text-decoration: none;
+        color: white;
+        :hover{
+            color: rgb(202, 202, 202);
+        }
+    }
+
+}

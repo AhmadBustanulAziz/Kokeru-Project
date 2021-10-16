@@ -1,0 +1,54 @@
+#login-body{
+    background-color: white;
+}
+
+#login{
+    #login-Title{
+        text-align: center;
+        color: #277592;
+        padding-top: 10vh;
+    }
+
+    #login-img{
+        width: 1100%;
+        height: 120%;
+    }
+
+    #login-card{
+
+        align-items: center;
+        justify-content: center;
+        text-align: leftt;
+        left: 30%;
+        top: 35%;
+        width: 40%;
+        min-width: 300px;
+        border-radius: 20px;
+
+        background-color: white;
+        color: #277592;
+    }
+
+    #login-button{
+        background-color: #277592;
+        border-radius: 5px;
+    }
+}
+
+#login-footer{
+    margin-top: 20vh;
+    margin-bottom: 0;
+    padding: 3vh 0vh 3vh 0vh ;
+
+    text-align: center;
+    font-family: PS;
+    color: white;
+    background-color: #277592;
+    #homelogin{
+        text-decoration: none;
+        color: white;
+        :hover{
+            color: rgb(202, 202, 202);
+        }
+    }
+}

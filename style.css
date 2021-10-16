@@ -1,0 +1,167 @@
+@font-face {
+  src: url("font/Product Sans Regular.ttf");
+  font-family: PS;
+}
+
+#Home {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+}
+
+#home-heading {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#home-Title {
+  color: #277592;
+  font-family: PS;
+}
+
+#home-rooms {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.WT {
+  color: #277592;
+  font-family: PS;
+  margin-top: 1%;
+}
+
+#home-card {
+  border: 0;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#home-card #button {
+  background-color: #277592;
+  border-color: #277592;
+  border-radius: 10px;
+  color: white;
+  font-family: PS;
+}
+
+#home-card #sudah {
+  margin-top: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 20pt;
+  background-color: #91F19E;
+  color: #277592;
+  border-color: #91F19E;
+}
+
+#home-card #belum {
+  margin-top: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 20pt;
+  background-color: #F37878;
+  color: white;
+  border-color: #F37878;
+}
+
+#home-footer {
+  margin-top: 19vh;
+  margin-bottom: 0;
+  padding: 3vh 0vh 3vh 0vh;
+  text-align: center;
+  font-family: PS;
+  color: white;
+  background-color: #277592;
+}
+
+#home-footer #homelogin {
+  text-decoration: none;
+  color: white;
+}
+
+#home-footer #homelogin :hover {
+  color: #cacaca;
+}
+
+#login-body {
+  background-color: white;
+}
+
+#login #login-Title {
+  text-align: center;
+  color: #277592;
+  padding-top: 10vh;
+}
+
+#login #login-img {
+  width: 1100%;
+  height: 120%;
+}
+
+#login #login-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: leftt;
+  left: 30%;
+  top: 35%;
+  width: 40%;
+  min-width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  color: #277592;
+}
+
+#login #login-button {
+  background-color: #277592;
+  border-radius: 5px;
+}
+
+#login-footer {
+  margin-top: 20vh;
+  margin-bottom: 0;
+  padding: 3vh 0vh 3vh 0vh;
+  text-align: center;
+  font-family: PS;
+  color: white;
+  background-color: #277592;
+}
+
+#login-footer #homelogin {
+  text-decoration: none;
+  color: white;
+}
+
+#login-footer #homelogin :hover {
+  color: #cacaca;
+}
+
+#admcard {
+  background-color: #91F19E;
+  margin-left: 20%;
+}
+
+#admcard #button {
+  background-color: #277592;
+}
+
+body {
+  min-width: 100vh;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
