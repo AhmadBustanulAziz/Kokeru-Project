@@ -137,7 +137,7 @@ $colors: ( red: #fb3a3a, pink: #E91E63, purple: #7460ee, deep-purple: #673AB7, i
 
 [type="radio"]:disabled:checked + label:after {
   background-color: rgba(0, 0, 0, 0.26);
-  border-color: #BDBDBD;
+  border-color: #bdbdbd;
 }
 
 /* Checkboxes
@@ -340,7 +340,7 @@ form p:last-child {
 
 [type="checkbox"].filled-in:disabled:not(:checked) + label:after {
   border-color: transparent;
-  background-color: #BDBDBD;
+  background-color: #bdbdbd;
 }
 
 [type="checkbox"].filled-in:disabled:checked + label:before {
@@ -348,8 +348,8 @@ form p:last-child {
 }
 
 [type="checkbox"].filled-in:disabled:checked + label:after {
-  background-color: #BDBDBD;
-  border-color: #BDBDBD;
+  background-color: #bdbdbd;
+  border-color: #bdbdbd;
 }
 
 /* Switch
@@ -425,7 +425,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
 
 .switch label input[type=checkbox][disabled] + .lever:after,
 .switch label input[type=checkbox][disabled]:checked + .lever:after {
-  background-color: #BDBDBD;
+  background-color: #bdbdbd;
 }
 
 
