@@ -71,7 +71,7 @@
   float: right;
 }
 .fa.fa-pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .fa.fa-pull-right {
   margin-left: .3em;
@@ -84,7 +84,7 @@
   float: left;
 }
 .fa.pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .fa.pull-right {
   margin-left: .3em;
